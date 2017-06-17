@@ -1,0 +1,12 @@
+.btn{
+	color: white;
+
+	&__nav{
+		border: 1px solid rgb(100,109,124);	
+		font-size: 20px;	
+	}
+
+	&__nav:hover{
+		background-color: #49505F;
+	}
+}

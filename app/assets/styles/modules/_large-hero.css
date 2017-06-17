@@ -1,0 +1,35 @@
+.large-hero {
+	position: relative;
+
+	&__image {
+		display: block;
+		height: 100%;
+	}
+
+	&__text-content {
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	padding-left: 5px;
+
+	
+}
+
+	&__title{
+		font-size: 70px;
+		text-transform: uppercase;
+		text-shadow: 2px 2px #000;
+		font-weight: 400;
+	}
+
+	&__subtitle{
+		font-size: 25px;
+		font-weight: 500;
+		text-shadow: 1px 1px #333;
+		margin-top: -135px;
+		letter-spacing: 1px;
+
+	}
+
+}
