@@ -4,9 +4,60 @@
 	&__nav{
 		border: 1px solid rgb(100,109,124);	
 		font-size: 20px;	
+
+		a{
+		background-color: transparent;
+		color: white;
+		text-decoration: none;
+		}
+
 	}
 
 	&__nav:hover{
 		background-color: #49505F;
+
 	}
+
+	&__feature{
+		padding: 10px 30px 10px 30px;
+		border-radius: 5px;
+		width: 175px;
+		text-align: center;
+		margin: auto;
+		transition: all .3 ease;
+		font-size: 1.1rem;
+
+		a{
+		color: white;
+		text-decoration: none;
+		}
+
+	
+	&__blue{
+		background-color: #1686C1;
+	}
+
+	&__green{
+		background-color: #178A27;
+	}
+
+	&__red{
+		background-color: #852406;
+	}
+}
+
+	&__feature__green:hover{
+		background-color: #449D44;
+	}
+
+	&__feature__blue:hover{
+		background-color: #31B0D5;
+	}
+
+	&__feature__red:hover{
+		background-color: #C9302C;
+	}
+
+
+
 }

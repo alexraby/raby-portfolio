@@ -1,4 +1,11 @@
+
+
 body {
 	font-family: "Open Sans", Helvetica;
 	margin-left: -10px;
+	margin-right: -15px;
+}
+
+*{
+	box-sizing: border-box;
 }

@@ -1,0 +1,14 @@
+.feature{
+	background-color: #F2F2F2;
+	
+	&__words{
+		padding: 0px 20px 35px 20px;
+		margin: auto;
+	}
+
+
+	img{
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,18 @@
+.section-title{
+	font-weight: 700;
+	font-size: 1.2rem;
+	margin-top: 15px;
+	margin-bottom: 10px;
+
+	&--green{
+		color: #178A27;
+	}
+
+	&--blue{
+		color: #1686C1;
+	}
+
+	&--grey{
+		color: #666666;
+	}
+}
