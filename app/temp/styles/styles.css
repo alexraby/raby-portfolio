@@ -438,7 +438,6 @@ body {
 
 .large-hero {
 	position: relative;
-
 }
 
 .large-hero__image {
@@ -467,6 +466,40 @@ body {
   text-shadow: 1px 1px #333;
   margin-top: -135px;
   letter-spacing: 1px;
+}
+
+.large-hero2 {
+	position: relative;
+
+}
+
+.large-hero2__image {
+  display: block;
+  height: 100%;
+}
+
+.large-hero2__text-content {
+  text-align: center;
+  color: white;
+  padding-top: 45px;
+  max-width: 800px;
+  margin: 0 auto 0px;
+}
+
+.large-hero2__title{
+  font-size: 36px;
+  text-shadow: 2px 2px #aaa;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.large-hero2__subtitle{
+  font-size: 18px;
+  font-weight: 200;
+  text-shadow: .5px .5px #aaa;
+  letter-spacing: 1px;
+  margin-top: -30px;
+  line-height: 1.5;
 }
 
 .wrapper {
@@ -627,6 +660,15 @@ body {
 .parallax{
 	background-image: url("/assets/images/bg-1.jpg");
 	height: 600px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+	background-image: url("/assets/images/bg-2.jpg");
+	height: 315px;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

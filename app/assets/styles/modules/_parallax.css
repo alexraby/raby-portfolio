@@ -6,3 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.parallax2{
+	background-image: url("/assets/images/bg-2.jpg");
+	height: 315px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
