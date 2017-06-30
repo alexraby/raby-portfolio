@@ -21,4 +21,8 @@
 		padding-bottom: 20px;
 	}
 
+	&__fourcolumn{
+		text-align: center;
+	}
+
 }

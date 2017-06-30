@@ -603,12 +603,20 @@ body {
   font-size: 1.1rem;
   background-color: white;
   border: 1px solid #CCCCCC;
-  margin-left: 60%;
 }
 
 .btn__style2 a{
   color: #666666;
   text-decoration: none;
+}
+
+.btn__marLeft{
+  margin-left: 60%;
+}
+
+.btn__style2-small{
+  width: 122px;
+  margin: auto;
 }
 
 .btn__style2:hover{
@@ -681,6 +689,11 @@ body {
 
   .row__b-margin-until-medium {
     margin-bottom: 0;
+  }
+
+  .row__medium-2 {
+    float: left;
+    width: 25%;
   }
 
   .row__medium-4 {
@@ -794,6 +807,10 @@ body {
 .section-title__twocolumn{
   text-align: center;
   padding-bottom: 20px;
+}
+
+.section-title__fourcolumn{
+  text-align: center;
 }
 
 .feature{
