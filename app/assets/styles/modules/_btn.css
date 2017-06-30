@@ -1,24 +1,22 @@
 .btn{
-	color: white;
 
 	&__nav{
-		border: 1px solid rgb(100,109,124);	
-		font-size: 20px;	
+			border: 1px solid rgb(100,109,124);	
+			font-size: 20px;	
 
-		a{
-		background-color: transparent;
-		color: white;
-		text-decoration: none;
+			a{
+				color: white;
+				background: transparent;
+				text-decoration: none;
+			}
 		}
 
-	}
+		&__nav:hover{
+			background-color: #49505F;
+		}
 
-	&__nav:hover{
-		background-color: #49505F;
 
-	}
-
-	&__feature{
+	&__color{
 		padding: 10px 30px 10px 30px;
 		border-radius: 5px;
 		width: 175px;
@@ -28,36 +26,61 @@
 		font-size: 1.1rem;
 
 		a{
-		color: white;
-		text-decoration: none;
+			color: white;
+			background: transparent;
+			text-decoration: none;
+		}
+	
+		&-blue{
+			background-color: #1686C1;
 		}
 
+		&-green{
+			background-color: #178A27;
+		}
+
+		&-red{
+			background-color: #852406;
+		}
+		}	
+
 	
-	&__blue{
-		background-color: #1686C1;
-	}
+		&__color-green:hover{
+			background-color: #449D44;
+		}
 
-	&__green{
-		background-color: #178A27;
-	}
+		&__color-blue:hover{
+			background-color: #31B0D5;
+		}
 
-	&__red{
-		background-color: #852406;
-	}
+		&__color-red:hover{
+			background-color: #C9302C;
+		}
+
+
+	&__style2{
+			padding: 10px 30px 10px 30px;
+			border-radius: 10px;
+			width: 155px;
+			text-align: center;
+			transition: all .3 ease;
+			font-size: 1.1rem;	
+			background-color: white;
+			border: 1px solid #CCCCCC;
+			margin-left: 60%;
+
+		
+			a{
+			color: #666666;
+			text-decoration: none;
+			}
+
+		}
+
+	&__style2:hover{
+			background-color: #E6E6E6;
+			color: #23527C;
+
+
 }
-
-	&__feature__green:hover{
-		background-color: #449D44;
-	}
-
-	&__feature__blue:hover{
-		background-color: #31B0D5;
-	}
-
-	&__feature__red:hover{
-		background-color: #C9302C;
-	}
-
-
-
 }

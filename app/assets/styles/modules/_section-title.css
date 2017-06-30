@@ -15,4 +15,10 @@
 	&--grey{
 		color: #666666;
 	}
+	
+	&__twocolumn{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
 }

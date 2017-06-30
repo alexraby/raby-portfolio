@@ -3,11 +3,11 @@
 	@mixin clearfix;
 
 	&--gutters{
-		margin-right: -25px;
+		margin-right: -30px;
 	}
 
 	&--gutters > div{
-		padding-right: 25px;
+		padding-right: 30px;
 	}
 
 	@mixin atMedium {
@@ -18,7 +18,7 @@
 
 		&__medium-4 {
 		float:left;
-		width: 33%;
+		width: 33.33%;
 		}
 
 		&__medium-4--larger {
