@@ -568,7 +568,7 @@ body {
 @media (min-width: 800px) {
 
   .page-section {
-    padding: 4.5rem 0 0 0;
+    padding: 2.5rem 0 0 0;
   }
 }
 
@@ -652,6 +652,10 @@ body {
   margin: auto;
 }
 
+.btn__style2-margin-left{
+  margin-left: 5px;
+}
+
 .btn__style2:hover{
   background-color: #E6E6E6;
   color: #23527C;
@@ -707,6 +711,7 @@ body {
   font-size: .9em;
   line-height: 1.4;
   font-weight: 300;
+  color: #333333;
 }
 
 .generic-content-container p a {
@@ -855,6 +860,11 @@ body {
   text-align: center;
 }
 
+.section-title__onecolumn{
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
 .feature{
 	background-color: #F2F2F2;
 
@@ -863,6 +873,13 @@ body {
 .feature__words{
   padding: 0px 20px 35px 20px;
   margin: auto;
+}
+
+.feature__words-Xpadding{
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 1.1em;
+  line-height: 1.5px;
 }
 
 .feature img{

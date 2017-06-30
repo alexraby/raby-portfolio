@@ -83,6 +83,10 @@
 		margin: auto;
 	}
 
+	&__style2-margin-left{
+		margin-left: 5px;
+	}
+
 	&__style2:hover{
 			background-color: #E6E6E6;
 			color: #23527C;
