@@ -1,4 +1,7 @@
 .site-header{
+	display: none;
+
+	@mixin atMedium{
 	display: flex;
 	flex-direction: row;
 	width: 50%;
@@ -9,5 +12,5 @@
 	height: 60px;
 	background-color: $mainBlue;
 	color: white;
-
+	}
 }

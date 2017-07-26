@@ -1,10 +1,29 @@
 .contact{
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 75%;
 	height: 400px;
+	margin: 0 auto 0;
+
+	@mixin atMedium{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 500px;	
+	margin: 15px auto 15px;
+	}
 
 	input{
+		width: 270px;
+		height: 40px;
+		margin: 10px;
+		padding: 10px;
+		font-size: 1em;
+		border: solid 2px gray;
+  		transition: border 0.3s;
+		
+
+		@mixin atMedium{
 		width: 400px;
 		height: 40px;
 		margin: 10px;
@@ -12,21 +31,33 @@
 		font-size: 1em;
 		border: solid 3px gray;
   		transition: border 0.3s;
-		}
+		}	
+	}
 
 	input:focus{
 	  	outline: solid 1px #969696;
 		}
 
 	textarea{
-		max-width: 400px;
+		max-width: 270px;
+		min-width: 270px;
+		height: 250px;
+		padding: 10px;
+		font-size: 1em;
+		margin-bottom: 10px;
+		border: solid 2px gray;
+  		transition: border 0.3s;
+
+  		@mixin atMedium{
+  		max-width: 400px;
 		min-width: 400px;
 		height: 250px;
 		padding: 10px;
 		font-size: 1em;
 		margin-bottom: 10px;
 		border: solid 3px gray;
-  		transition: border 0.3s;
+  		transition: border 0.3s;	
+  		}
 	}
 
 	textarea:focus { 

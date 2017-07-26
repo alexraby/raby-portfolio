@@ -4,39 +4,111 @@
 	align-items: center;
 	justify-content: center;
 
-
+	
 	&__title{
 	font-size: 2em;
-	color: black;
-	padding: 30px 0 0 ;
+	color: $darkBlue;
+	padding: 40px 0 0;
+
+	@mixin atMedium{
+	font-size: 2.5em;
+	}
+	}
+
+	&__subtitle{
+	text-align: center;
+	color: $darkBlue;
+	font-size: 1em;
+	@mixin atMedium{
+
+	}
 	}
 
 	&__section{
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	padding: 10px 30px;
+	
+	@mixin atMedium{
+	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid gray; 
-	padding: 100px 50px;
-	margin: 30px 0;
-	width: 60%;
+	border: 1px solid $darkBlue; 
+	margin: 30px 60px;
+	height: 300px;
+	padding: 10px 30px;
+
 	}
+	
+	}
+
+	&__text-content{
+		text-align: center;
+		color: $darkBlue;
+		padding: 0px;
+
+		@mixin atMedium{
+		padding: 0px 0px 30px 30px;	
+		
+		}
+	}
+
+	&__light{
+		font-weight: 300;
+	}
+
+	&__btn-padding{
+		margin-top: 20px;
+		padding: 10px;
+	}
+
+	img{
+	margin-top: 25px;
+	width: 350px;	
+	outline: 1px solid $darkBlue;
+
+	@mixin atMedium{
+	flex: 1 0 0;
+	width: 600px;
+	display: block;
+	margin-top: 0px;
+	outline: 1px solid $darkBlue;
+	}
+	}
+
 
 	&__skills-section{
 	background-color: white;
-	border: 1px solid black;
-	padding: 20px 50px;
-	width: 45%;
+	border: 1px solid $darkBlue;
+	padding: 10px 35px 35px 35px;
+	width: 50%;
+	height: auto;
 	margin-bottom: 50px;
+	display: inline-block;
 	}
 	
 	&__blue{
 	background-color: $mainBlue;
 	}
 
+	p{
+		padding: 15px;
+		color: $darkBlue;
+		text-align: center;
+	}
+
+	li{
+		text-align: center;
+	}
+
 	&__footer-section{
 		height: 60px;
 		background-color: $mainBlue;
+		color: $white;
 	}
 
 }
