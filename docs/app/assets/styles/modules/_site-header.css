@@ -1,0 +1,16 @@
+.site-header{
+	display: none;
+
+	@mixin atMedium{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin-left:25%;
+	justify-content: center;
+	align-items: center;
+	float: center;
+	height: 60px;
+	background-color: $mainBlue;
+	color: white;
+	}
+}
