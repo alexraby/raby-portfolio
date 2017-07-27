@@ -36,6 +36,7 @@
 	font-size: 1.5em;
 	font-weight: 300;
 	margin-top: -50px;
+	color: $mainBlue;
 	
 	@mixin atMedium{
 	font-size: 2em;

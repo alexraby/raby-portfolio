@@ -518,10 +518,6 @@ html,body
 	margin: 5px auto 0;
 }
 
-.wrapper__navbar{
-  margin-top: 0;
-}
-
 @media (min-width: 800px) {
 
   .wrapper {
@@ -591,6 +587,7 @@ html,body
   font-size: 1.5em;
   font-weight: 300;
   margin-top: -50px;
+  color: #2B467A;
 }
 
 @media (min-width: 800px) {
@@ -600,13 +597,11 @@ html,body
   }
 }
 
-.site-header{
-	display: none;
-}
-
 @media (min-width: 800px) {
 
   .site-header {
+    position: relative;
+    z-index: 2;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -616,24 +611,65 @@ html,body
             flex-direction: row;
     width: 50%;
     margin-left: 25%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    float: center;
     height: 60px;
     background-color: #2B467A;
     color: white;
   }
 }
 
+.site-header__menu-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #071D47;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+@media (min-width: 800px) {
+
+  .site-header__menu-icon {
+    display: none;
+  }
+}
+
+.site-header__menu-content {
+  display: none;
+}
+
+@media (min-width: 800px) {
+
+  .site-header__menu-content {
+    display: block;
+  }
+}
+
+.site-header__menu-content--is-visible {
+  display:block;
+  color: black;
+  width: 400px;/*flex-direction: row;
+			float: center;
+			background-color: $lightBlue;
+			opacity: .3;
+			width: 100%;
+			height: 175px;*/
+}
+
 .primary-nav{
-	display: none;
-
-
-
+	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background-color: rgba(110,130,169, .5);
+		
 }
 
 @media (min-width: 800px) {
@@ -646,10 +682,23 @@ html,body
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    list-style: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #2B467A;
   }
+}
+
+.primary-nav a{
+  border: 1px solid #071D47;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+@media (min-width: 800px) {
 
   .primary-nav a {
+    border: none;
     padding: 10px;
     margin: 0px 20px;
     font-size: 1.2em;
@@ -1138,6 +1187,7 @@ input::-webkit-input-placeholder {
 	display: -ms-flexbox;
 	display: flex;
 	margin-right: 10px;
+	margin-bottom: 20px;
 }
 
 .icon_single{
