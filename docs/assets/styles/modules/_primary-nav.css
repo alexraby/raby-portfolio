@@ -1,0 +1,41 @@
+.primary-nav{
+	padding: 10;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: rgba($lightBlue, .9);	
+	
+	@mixin atMedium { 
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		background-color: $mainBlue;
+	}
+
+		a{
+		text-decoration: none;
+		border: 1px solid $darkBlue;
+		padding: 10px;
+		font-size: 1.2em;
+		font-weight: 500;
+		color: $darkBlue;
+		
+		@mixin atMedium{	
+		border: none;
+		margin: 0px 5px;
+		color: $white;
+		}
+
+		@mixin atLarge{
+		border: none;
+		margin: 0px 20px;
+		color: $white;	
+		}	
+		}
+
+		a:hover{
+			color: $lightBlue;
+		}
+
+		
+}
