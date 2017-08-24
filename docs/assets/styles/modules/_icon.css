@@ -3,8 +3,10 @@
 	margin-top: 100px;
 	display: flex;
 	margin-right: 10px;
+	margin-bottom: 20px;
 
 	&_single{
 	padding: 0 15px;
 	}
-}
+
+	}

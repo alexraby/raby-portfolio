@@ -836,7 +836,7 @@ html,body
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	color: white;
+	color: #F2F2F3;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
@@ -889,7 +889,7 @@ html,body
   line-height: 1.5;
   height: 200px;
   font-weight: 200;
-  font-size: 1.1em;
+  font-size: 1.2em;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -939,7 +939,7 @@ html,body
 .about__2 h1{
   font-size: 2em;
   font-weight: 100;
-  padding: 15px;
+  padding:15px;
 }
 
 @media (min-width: 800px) {
@@ -949,6 +949,7 @@ html,body
     font-weight: 200;
     -webkit-transform: rotate(270deg);
             transform: rotate(270deg);
+    padding: 0px;
   }
 }
 
@@ -1008,14 +1009,14 @@ html,body
 @media (min-width: 800px) {
 
   .about__2 p {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 0px;
-            flex: 1 0 0;
-    margin-right: 25px;
+    -webkit-box-flex: 2;
+        -ms-flex: 2 0 0px;
+            flex: 2 0 0;
+    padding-top: 150px;
     line-height: 1.5;
     height: 300px;
     font-weight: 200;
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
   }
 }

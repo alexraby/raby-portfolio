@@ -19,6 +19,7 @@
 	text-align: center;
 	color: $darkBlue;
 	font-size: 1em;
+	
 	@mixin atMedium{
 
 	}

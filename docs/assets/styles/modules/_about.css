@@ -2,7 +2,7 @@
 	background-color: $mainBlue;
 	display: flex;
 	flex-direction: column;
-	color: white;
+	color: $white;
 	align-items: center;
 	justify-content: center;
 
@@ -31,7 +31,7 @@
 	line-height: 1.5;
 	height: 200px;
 	font-weight: 200;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	text-align: center;
 	margin-bottom: 40px;
 
@@ -71,12 +71,13 @@
 	h1{
 	font-size: 2em;
 	font-weight: 100;
-	padding: 15px;
+	padding:15px;
 
 	@mixin atMedium{	
 	font-size: 3em;
 	font-weight: 200;
 	transform: rotate(270deg);
+	padding: 0px;
 	}
 	}
 
@@ -116,12 +117,12 @@
 	text-align: center;
 
 	@mixin atMedium{
-	flex: 1 0 0;
-	margin-right: 25px;
+	flex: 2 0 0;
+	padding-top: 150px;
 	line-height: 1.5;
 	height: 300px;
 	font-weight: 200;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	text-align: center;
 	}
 

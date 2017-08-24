@@ -3,34 +3,49 @@
 <head>
 	<title>Alex Raby: Master Coder</title>
 	<link rel="stylesheet" href="temp/styles/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,700" rel="stylesheet">
+  <script src="/temp/scripts/Vendor.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,700" rel="stylesheet">
 </head>
 <body>
 
-<div class="wrapper wrapper__navbar">
-    <div class="site-header">
-      <div class="primary-nav">
-          <a>Home</a>
-          <a>About</a>
-          <a>Projects</a>
-          <a>Skills</a>
-          <a>Contact</a>
+<div class="site-header__menu-icon">
+  <div class="site-header__menu-icon__middle"></div>
+</div>
+<div class="site-header">
+  <div class="wrapper">
+       <div class="site-header__menu-content">
+            <div class="primary-nav">
+                <a href="#" id="home">Home</a>
+                <a href="#about" id="about-link">About</a>
+                <a href="#projects" id="projects-link">Projects</a>
+                <a href="#skills" id="skills-link">Skills</a>
+                <a href="#contact" id="contact-link">Contact</a>  
+            </div>
       </div>
     </div>
+</div>
+
    <div class="large-hero large-hero__text-content">
     <h1>Alex Raby</h1>
     <h3>Front-End Developer</h3>
     <div class="icon">
       <div class="icon_single">
-      <img src="assets/images/twitter.png"></div>
+        <a href="https://github.com/alexraby"><img src="assets/images/github_128.png"></a>
+      </div>
       <div class="icon_single">
-      <img src="assets/images/instagram.png"></div>
+        <a href="https://www.instagram.com/araby424/"><img src="assets/images/instagram_48_blue.png"></a>
+      </div>
       <div class="icon_single">
-      <img src="assets/images/linkedin.png"></div></div>
+        <a href="https://www.linkedin.com/in/alex-raby-9ba7a222/"><img src="assets/images/linkedin_48.png"></a>
+      </div>
+      <div class="icon_single">
+        <a href="https://twitter.com/araby424"><img src="assets/images/twitter_48.png"></a>
+      </div>
+      </div>
     </div>
 </div>
 
-<div class="wrapper">
+<div id="about" class="wrapper">
     <div class="about">
     <h1 class=>About Me</h1>
     <img src="assets/images/headshot.jpg">
@@ -38,7 +53,7 @@
   </div>
 </div>
 
-  <div class="wrapper feature">
+  <div id="projects" class="wrapper feature">
   <div class="feature__title">Projects</div>
   <div class="feature__section">
   <img src="assets/images/conquer.png">
@@ -61,11 +76,11 @@
   </div>
   </div>
 
-<div class="wrapper">
+<div id="skills" class="wrapper">
     <div class="about about__2">
     <h1 class=>Skills/Courses</h1>
-    <div class="about__2__skillz">I'm a student for life - can't stop, won't stop. Here's some of the skills I'm comfortable with:<br><br><br>HTML * CSS * JavaScript * Bootstrap * VueJS * WordPress * Git * ChromeDevTools * Adobe PhotoShop</div>
-    <p> Also I've taken these courses: <br>
+    <div class="about__2__skillz">I'm a student for life - can't stop, won't stop. Here are some of the skills I'm comfortable with:<br><br><br>HTML * CSS * JavaScript * Bootstrap * VueJS * WordPress * Git * ChromeDevTools * Adobe PhotoShop</div>
+    <p>Courses: <br>
           -Brad Schiff's Mastering the Modern Workflow <br>          
           -Tony Alicea's JavaScript the Hard Parts <br>
           -Dain Miller's Advanced Beginner Challenge <br>
@@ -74,7 +89,7 @@
 </div>
 
 
-<div class="wrapper">
+<div id="contact" class="wrapper">
   <div class="feature contact">
   <div class="feature__title">Get in Touch</div>
   <div class="feature__subtitle">Let's work together! Shoot me a message and I'll get back to you shortly.</div>
@@ -87,6 +102,6 @@
 <div class="wrapper feature feature__footer-section">
   <div class="footer">Written/Coded by Alex Raby</div>
 </div>
-
+  <script src="/temp/scripts/App.js"></script>
 </body>
 </html>
