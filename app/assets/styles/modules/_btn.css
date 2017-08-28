@@ -9,11 +9,13 @@
 		margin-bottom: 20px;
 
 		@mixin atMedium{
-		width: 400px;
+		width: 350px;
 		border: 2px solid gray;
 		text-align: center;
+		color: $darkBlue;
+		font-size: .9em;
 		padding: 10px;
-		margin-bottom: 20px;
+		margin: 10px auto 20px;
 		}
 	}
 

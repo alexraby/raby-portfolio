@@ -93,9 +93,52 @@
   <div class="feature contact">
   <div class="feature__title">Get in Touch</div>
   <div class="feature__subtitle">Let's work together! Shoot me a message and I'll get back to you shortly.</div>
-  <input type="text" placeholder="Email"></input>
+  <form id="gform" method="POST"
+  action="https://script.google.com/macros/s/AKfycbzRzHsk9bRqEG8trZ2enmHxEfP_43HkRAIB7tVkBfqwy96FMEk/exec">
+  
+  <fieldset>
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder=" " />
+      </fieldset>
+    
+  
+  <fieldset>
+      <label for="message">Message: </label>
+      <textarea id="message" name="message"
+      placeholder=" "></textarea>
+</fieldset>
+
+
+  <fieldset>
+      <label for="email">Your Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder=" "/>
+      <span id="email-invalid" style="display:none">
+        Must be a valid email address</span>
+  </fieldset>
+
+
+  <fieldset>
+      <label for="color">Favorite Color: </label>
+      <input id="color" name="color" placeholder=" " />
+    </fieldset>
+  </form>
+
+    <button class="btn btn__send">
+      <i class="btn"></i>&nbsp;Send</button>
+
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting me!
+      I will get back to you soon!</h2>
+  </div>
+
+
+
+
+<!--  <input type="text" placeholder="Email"></input>
   <textarea>Message</textarea>
   <span class="btn btn__send"><a href="#" class="btn">Send</a></span>
+-->
 </div>
 </div>
 
@@ -103,5 +146,7 @@
   <div class="footer">Written/Coded by Alex Raby</div>
 </div>
   <script src="/temp/scripts/App.js"></script>
+  <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 </html>
