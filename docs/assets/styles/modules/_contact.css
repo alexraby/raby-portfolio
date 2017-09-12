@@ -2,21 +2,49 @@
 	display: flex;
 	flex-direction: column;
 	width: 75%;
-	height: 400px;
+	height: 700px;
 	margin: 0 auto 0;
 
 	@mixin atMedium{
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	height: 500px;	
+	height: auto;
 	margin: 15px auto 15px;
+	}
+
+	form{
+	width: 350px;
+	margin-left: 35px;
+
+	@mixin atMedium{
+	width: 500px;
+	margin-left: 0px;
+	
+	}
+	}
+
+	fieldset{
+		border: 0 none;
+		margin: auto;
+
+		@mixin atMedium{
+
+		}
+
+	}
+
+	fieldset:first-child{
+		margin-top: 20px;
+	}
+
+	label{
+		font-size: 1em;
 	}
 
 	input{
 		width: 270px;
 		height: 40px;
-		margin: 10px;
 		padding: 10px;
 		font-size: 1em;
 		border: solid 2px gray;
@@ -24,13 +52,11 @@
 		
 
 		@mixin atMedium{
-		width: 400px;
-		height: 40px;
-		margin: 10px;
-		padding: 10px;
-		font-size: 1em;
-		border: solid 3px gray;
-  		transition: border 0.3s;
+		width: 100%;
+		height: 20px;
+		font-size: .9em;
+		font-weight: 300;
+		border: solid 2px gray;
 		}	
 	}
 
@@ -39,9 +65,9 @@
 		}
 
 	textarea{
-		max-width: 270px;
-		min-width: 270px;
-		height: 250px;
+		max-width: 85%;
+		min-width: 85%;
+		height: 150px;
 		padding: 10px;
 		font-size: 1em;
 		margin-bottom: 10px;
@@ -49,13 +75,13 @@
   		transition: border 0.3s;
 
   		@mixin atMedium{
-  		max-width: 400px;
-		min-width: 400px;
-		height: 250px;
+  		min-width: 100%;
+		height: 150px;
 		padding: 10px;
-		font-size: 1em;
-		margin-bottom: 10px;
-		border: solid 3px gray;
+		color: black;
+		font-size: .9em;
+		font-weight: 300;
+		border: solid 2px gray;
   		transition: border 0.3s;	
   		}
 	}
@@ -84,6 +110,26 @@ input::placeholder{
     color:black;
  }
 
+
+textarea::-webkit-input-placeholder {
+color: black !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: black !important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;  
+}
+ 
+textarea:-ms-input-placeholder {  
+color: black !important;  
+}
+
+textarea::placeholder{
+    color:black;
+ }
 
 
 }
