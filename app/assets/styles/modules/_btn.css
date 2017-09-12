@@ -6,7 +6,7 @@
 		border: 1px solid gray;
 		text-align: center;
 		padding: 10px;
-		margin-bottom: 20px;
+		margin: auto;
 
 		@mixin atMedium{
 		width: 350px;
