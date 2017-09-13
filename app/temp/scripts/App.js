@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -10378,12 +10378,6 @@ exports.default = MobileMenu;
 
 /***/ }),
 /* 2 */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: SyntaxError: Unexpected token, expected , (23:4)\n\n\u001b[0m \u001b[90m 21 | \u001b[39m  $\u001b[33m.\u001b[39msmoothScroll({\n \u001b[90m 22 | \u001b[39m  \tscrollElement\u001b[33m:\u001b[39m \u001b[36mnull\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 23 | \u001b[39m    scrollTarget\u001b[33m:\u001b[39m \u001b[36mnull\u001b[39m\n \u001b[90m    | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 24 | \u001b[39m  })\u001b[33m;\u001b[39m\n \u001b[90m 25 | \u001b[39m})\u001b[33m;\u001b[39m\n \u001b[90m 26 | \u001b[39m\u001b[0m\n");
-
-/***/ }),
-/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10397,14 +10391,9 @@ var _jquery = __webpack_require__(0);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
-var _SmoothScroll = __webpack_require__(2);
-
-var _SmoothScroll2 = _interopRequireDefault(_SmoothScroll);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var mobileMenu = new _MobileMenu2.default();
-var smoothScroll = new _SmoothScroll2.default();
 
 /***/ })
 /******/ ]);
