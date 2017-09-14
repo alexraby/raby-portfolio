@@ -12,13 +12,14 @@
 		background-color: $mainBlue;
 	}
 
-		a{
+	a{
 		text-decoration: none;
 		border: 1px solid $darkBlue;
 		padding: 10px;
 		font-size: 1.2em;
 		font-weight: 500;
 		color: $darkBlue;
+
 		
 		@mixin atMedium{	
 		border: none;
@@ -34,8 +35,11 @@
 		}
 
 		a:hover{
+			color: $white;
+
+			@mixin atMedium{
 			color: $lightBlue;
-		}
+		}}
 
 		
 }

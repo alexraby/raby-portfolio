@@ -824,7 +824,14 @@ html,body
 }
 
 .primary-nav a:hover{
-  color: #6E82A9;
+  color: #F2F2F3;
+}
+
+@media (min-width: 800px) {
+
+  .primary-nav a:hover {
+    color: #6E82A9;
+  }
 }
 
 .about{
@@ -1419,7 +1426,6 @@ input::-webkit-input-placeholder {
   border: 1px solid gray;
   text-align: center;
   padding: 10px;
-  margin: auto;
 }
 
 @media (min-width: 800px) {
