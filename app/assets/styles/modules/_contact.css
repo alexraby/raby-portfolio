@@ -2,8 +2,12 @@
 	display: flex;
 	flex-direction: column;
 	width: 75%;
-	height: 700px;
+	height: 625px;
 	margin: 0 auto 0;
+
+	@mixin atSmall{
+	height: 450px;
+	}
 
 	@mixin atMedium{
 	display: flex;
@@ -11,6 +15,24 @@
 	width: 50%;
 	height: auto;
 	margin: 15px auto 15px;
+	}
+
+	p{
+		font-size: 1.1em;
+		padding: 10px;
+		text-align: center;
+		font-weight: 300;
+		letter-spacing: .5px;
+		line-height: 1.5;
+	}
+
+&__thanks{
+		font-size: 1.3em;
+		padding: 10px;
+		font-weight: 600;
+		color: $darkBlue;
+		letter-spacing: .5px;
+		text-align: center;
 	}
 
 	form{

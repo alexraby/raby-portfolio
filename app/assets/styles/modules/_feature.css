@@ -8,6 +8,7 @@
 	font-size: 2em;
 	color: $darkBlue;
 	padding: 40px 0 0;
+	text-align: center;
 
 
 	@mixin atMedium{
@@ -18,10 +19,14 @@
 	&__subtitle{
 	text-align: center;
 	color: $darkBlue;
-	font-size: .8em;
+	font-size: 1.3em;
+	padding-top: 30px;
+	font-weight: 600;
 
 	@mixin atSmall{
-	font-size: 1em;
+	padding-top: 30px;
+	font-size: 1.5em;
+	font-weight: 600;
 	}
 	
 	}
@@ -65,6 +70,7 @@
 
 		@mixin atMedium{
 		padding: 0px 0px 30px 30px;	
+		font-size: 1.1em;
 
 		:first-child{
 		padding: 10px 0;
@@ -85,26 +91,6 @@
 		font-size: 1.4em;
 	}
 
-	button{
-		background-color: $darkBlue;
-		color: $white;
-		font-weight: 300;
-		letter-spacing: 1px;
-		font-size: .75em;
-		border: 1px solid $darkBlue;
-		border-radius: 4px;
-	}
-
-	button:hover {
-		background-color: $mainBlue;
-}
-
-
-
-	&__btn-padding{
-		margin-top: 20px;
-		padding: 10px;
-	}
 
 	img{
 	margin-top: 25px;	
@@ -138,15 +124,7 @@
 		color: $lightBlue;
 	}
 
-	button.white:visited{ 
-  	color: $white;
-  }	
-
-  	&__white{
-  		color: $white;
-  		text-decoration: none;
-  	}
-
+	
 
 	
 

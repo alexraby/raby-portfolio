@@ -1,32 +1,39 @@
 .btn{
+	background-color: $darkBlue;
+	font-weight: 600;
+	color: green;
+	letter-spacing: 1px;
+	font-size: .75em;
+	border: 1px solid $darkBlue;
+	border-radius: 4px;
 
-
-	&__send{
-		width: 270px;
-		border: 1px solid gray;
-		text-align: center;
-		padding: 10px;
-
-
-		@mixin atMedium{
-		width: 350px;
-		border: 2px solid gray;
-		text-align: center;
-		color: $darkBlue;
-		font-size: .9em;
-		padding: 10px;
-		margin: 10px auto 20px;
-		}
-	}
-
-
-		a{
-		display: block;
-		color: black;
+	a{
+		color: $white;
 		text-decoration: none;
 		width: 100%;
 	}
 
+	
+	&__padding{
+		margin-top: 20px;
+		padding: 10px;
+	}
+
+	&__survey{
+		font-size: 1.3em;
+		padding: 10px;
+		font-weight: 600;
+		margin: 20px;
+		text-align: center;
+	}
+
+	button:visited{ 
+  	color: $white;
+  	}	
 
 
+}
+
+.btn:hover{
+	background-color: $mainBlue;
 }

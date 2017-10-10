@@ -4,10 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Alex Raby: Web Developer</title>
 
-<link rel="stylesheet" href="assets/styles/styles-c89791a887.css"/>
+<link rel="stylesheet" href="assets/styles/styles-60db926421.css"/>
 
 <script src="assets/scripts/Vendor-5aa3ca45fa.js"></script>
 
+<link rel="icon" href="myIcon.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,700" rel="stylesheet">
 
 </head>
@@ -16,11 +17,11 @@
 <div class="site-header__menu-icon">
   <div class="site-header__menu-icon__middle"></div>
 </div>
-<div class="site-header">
+<div id="home" class="site-header">
   <div class="wrapper">
-       <div class="site-header__menu-content">
+       <div  class="site-header__menu-content">
             <div class="primary-nav">
-                <a href="#" id="home">Home</a>
+                <a href="#home" id="home-link">Home</a>
                 <a href="#about" id="about-link">About</a>
                 <a href="#portfolio" id="portfolio-link">Portfolio</a>
                 <a href="#skills" id="skills-link">Skills</a>
@@ -30,20 +31,23 @@
     </div>
 </div>
 
-   <div class="large-hero large-hero__text-content">
-    <h1>Alex Raby</h1>
-    <h3>Front-End Developer</h3>
+   <div class="large-hero"> 
+   <div class="large-hero__text-content">
+     <h1>Alex Raby</h1>
+    <h2>Web Designer/Developer</h2>
+    </div>
+      
     <div class="icon">
-      <div class="icon_single">
+      <div class="icon-single">
         <a href="https://github.com/alexraby"><img src="assets/images/github_128.png"></a>
       </div>
-      <div class="icon_single">
+      <div class="icon-single">
         <a href="https://www.instagram.com/araby424/"><img src="assets/images/instagram_48_blue.png"></a>
       </div>
-      <div class="icon_single">
+      <div class="icon-single">
         <a href="https://www.linkedin.com/in/alex-raby-9ba7a222/"><img src="assets/images/linkedin_48.png"></a>
       </div>
-      <div class="icon_single">
+      <div class="icon-single">
         <a href="https://twitter.com/araby424"><img src="assets/images/twitter_48.png"></a>
       </div>
       </div>
@@ -52,9 +56,9 @@
 
 <div id="about" class="wrapper">
     <div class="about">
-    <h1 class=>About Me</h1>
+    <h2 class=>About Me</h2>
     <img src="assets/images/headshot.jpg">
-    <p class="about__bio">Hi there! I'm Alex and I'm a freelance web designer/developer. I would love to build you a website that not only looks fabulous and  works beautifully, but that's functionally optimized to help you grow your business! <br> <br>I got into coding as a fun way to stretch my brain as I pursued my degrees in Theatre, but, as is generally the case, theatre is actually helping me with my coding as I aim to work with efficiency, simplicity, and an open mind.  </p>
+    <p class="about__bio">Hi there! I'm Alex and I'm a freelance web designer/developer. I would love to build you a website that not only looks fabulous and  works beautifully, but that's functionally optimized to help you grow your business! <br> <br>I got into coding as a fun way to stretch my brain as I pursued my degrees in Theatre, but, as is generally the case, theatre is actually helping me with my coding as I aim to work with efficiency, simplicity, and an open mind.<br><br> In my spare time, I love searching for delicious new coffee, gallivanting through libraries, sweating through hot yoga, and pretending I'm a rock star. </p>
   </div>
 </div>
 
@@ -62,38 +66,40 @@
   <div class="feature__title">Portfolio</div>
   <div class="feature__section">
   <img src="assets/images/conquer.png">
-      <div class="feature__text-content"> <h2 class="feature__light">Conquer Bootstrap Template Without Bootstrap</h2>
-      <div>This is a independent project I put together to learn how to put a mobile responsive website together without the convenience of the Bootstrap framework or even Flexbox. I took the standard Bootstrap theme <a class="feature__navy" href="http://www.templatemo.com/tm-476-conquer">Conquer</a> and coded from there.</div>
-      <button class="feature__btn-padding"><a class="feature__white" href="https://alexraby.github.io/conquer">Full Project</a></button>
+      <div class="feature__text-content"> <h2 class="feature__light">Conquer Bootstrap Template w/o Bootstrap</h2>
+      <div>This is a independent project I put together to learn how to code and format a mobile responsive website without the convenience of the Bootstrap framework or even Flexbox. I took the standard Bootstrap theme <a class="feature__navy" href="http://www.templatemo.com/tm-476-conquer">Conquer</a> and coded a replica.</div>
+      <button class="btn btn__padding"><a class="btn__white" href="https://alexraby.github.io/conquer">Full Project</a></button>
       </div>
   </div>
 
   <div class="feature__section">
   <img src="assets/images/travel-site.png" alt="Coming Soon!">
       <div class="feature__text-content"> <h2 class="feature__light">Clear View Escapes Travel Agency</h2>
-      <div>This was actually a project that I coded in a course, so the design isn't mine, but I know how to do all the fun fancy things in the site! </div>
-      <button class="feature__btn-padding"><a class="feature__white" href="https://alexraby.github.io/travel-site/">Full Project</a></button></div>
+      <div>This was a project that I coded in a workflow course, so the design isn't mine, but I'm able to do everything in the site, including the modal menu and animation features. </div>
+      <button class="btn btn__padding"><a class="btn__white" href="https://alexraby.github.io/travel-site/">Full Project</a></button></div>
   </div>
 
   <div class="feature__section"><img src="assets/images/raby-portfolio-pic.png" alt="Coming Soon!">
-      <div class="feature__text-content"> <h2 class="feature__light">My Portfolio (The one you're looking at)</h2>
-      <div>Pretty meta, I know, but I designed and coded this entire website by hand, using no templates or Content Management System. </div>
-      <button class="feature__btn-padding"><a class="feature__white" href="https://alexraby.github.io/raby-portfolio/">Full Project</a></button></div>
+      <div class="feature__text-content"> <h2 class="feature__light">My Portfolio (Yes, the one you're looking at)</h2>
+      <div>Pretty meta, I know, but I designed and coded this entire mobile-responsive website by hand. New elements for me on this project were configuring the mobile menu as well as the contact form</div>
+      <button class="btn btn__padding"><a class="btn__white" href="https://alexraby.github.io/raby-portfolio/">Full Project</a></button></div>
   </div> 
 
   </div>
 
 <div id="skills" class="wrapper">
-    <div class="about about__2">
+    <div class="about about__work">
     <h1>How I Work</h1>
-    <div class="about__2__skillz">I build my websites with HTML/HTML5, CSS/CSS3, as well as JavaScript/JQuery. I really enjoy working with Wordpress as a content management system, because of how customizable it is in terms of design and functionality, and it's also super easy to use and update!</div>
-      <div class="about__2__courses">
+    <div class="about__work__skillz">I build my websites with HTML/HTML5, CSS/CSS3, as well as JavaScript/JQuery. I really enjoy working with Wordpress as a content management system, because of how customizable it is in terms of design and functionality, and it's also super easy to use and update!</div>
+      <div class="about__work__courses">
       <h3>Training</h3> 
-      <p>I've had the opportunity to study under professional developers who share their own tools and workflow insights with students. Here are just a few of my favorite courses!</p>
+      <p>I've had the opportunity to study under professional developers who are not only masters at their craft, but also share their own tools and workflow insights with students. Here are just a few of the people I've been able to study with</p>
         <ul>
-          <li>Brad Schiff's Mastering the Modern Workflow</li>    
-          <li>Tony Alicea's JavaScript the Hard Parts</li>
-          <li>Dain Miller's Advanced Beginner Challenge</li>
+          <a href="http://schiffwebdesign.com/"><li>Brad Schiff</li></a> 
+          <a href="https://www.udemy.com/user/anthonypalicea/"><li>Anthony Alicea</li></a>  
+          <a href="https://www.bradhussey.ca/"><li>Brad Hussey</li></a>  
+          <a href="https://twitter.com/gordon_zhu?lang=en"><li>Gordon Zhu</li></a>  
+          <a href="http://chrisdixondesigns.com/"><li>Chris Dixon</li></a> 
         </ul>
       </div>
   </div>
@@ -102,9 +108,14 @@
 
 <div id="contact" class="wrapper">
   <div class="feature contact">
-  <div class="feature__title">Get in Touch</div>
-  <div class="feature__subtitle">Let's work together! Shoot me a message and I'll get back to you shortly.</div>
-  <form id="gform" method="POST"
+  <div class="feature__title">Let's Work Together!</div>
+  <div class="feature__subtitle">Have a project in mind? </div>
+  <p>Click the button below to fill out my Discovery Survey, where you'll give me some details on what you're looking for and other logistics. I'll get back to you within 48 hours and we can chat about further steps!</p>
+  <div class="contact__thanks">Thanks so much! I look forward to hearing from you!</div>
+  <button class="btn btn__padding btn__survey"><a href="https://alex2581.typeform.com/to/JrqogZ">Start the Adventure!</a></button></div>
+
+
+ <!-- <form id="gform" method="POST"
   action="https://script.google.com/macros/s/AKfycbzRzHsk9bRqEG8trZ2enmHxEfP_43HkRAIB7tVkBfqwy96FMEk/exec">
   
   <fieldset>
@@ -145,8 +156,7 @@
 
 
 
-
-<!--  <input type="text" placeholder="Email"></input>
+ <input type="text" placeholder="Email"></input>
   <textarea>Message</textarea>
   <span class="btn btn__send"><a href="#" class="btn">Send</a></span>
 -->
